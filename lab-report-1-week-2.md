@@ -2,7 +2,7 @@
 
 ---
 
-> ## 1. **Installing Visual Studio Code**
+> # 1. **Installing Visual Studio Code**
 
 * Go to the Visual Studio Code website 
 
@@ -15,7 +15,7 @@
 
 ---
 
-> ## 2. **Remotely Connecting**
+> # 2. **Remotely Connecting**
 
 * For windows, install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
@@ -27,17 +27,20 @@
 
 ![Index.php](IndexPHP.png)
 
-* Open a terminal in VSCode (Ctrl or Command + `, or use the Terminal → New Terminal menu option) and enter this command where ``zzz`` is replaced by the letters in your cs15l account: 
+* Open a terminal in VSCode (Ctrl or Command + `, or use the Terminal → New Terminal menu option) and enter this command where zzz is replaced by the letters in your cs15l account: 
+
 ```
 $ ssh cs15lwi22zzz@ieng6.ucsd.edu
 ```
+
 * Type yes and type your password when applicable. It should look like this when you are logged in:
 
 ![Remote Connecting](RemoteConnecting.png)
 
 ---
 
-> ## 3. **Trying Some Commands**
+> # 3. **Trying Some Commands**
+
 
 ```
 $ cd ~
@@ -94,7 +97,7 @@ $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 
 ---
 
-> ## 4. **Moving Files with `scp`**
+> # 4. **Moving Files with `scp`**
 
 * `scp` means secure copy and allows us to securely transfer files between computers (client to server)
 
@@ -118,9 +121,14 @@ and run the `ls` command to determine if the transfer was successful. It should 
 
 ---
 
->## 5. **Setting an SSH Key**
+># 5. **Setting an SSH Key**
 
 * First, run the command `$ ssh-keygen` on the terminal. Press `enter` for the prompts.
+
+* on Windows, follow the ssh-add steps also: 
+
+[https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
 
 * Next run:
 
@@ -146,7 +154,7 @@ $ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/
 
 ---
 
-## 6. **Optimizing Remote Running**
+# 6. **Optimizing Remote Running**
 
 * You can run multiple commands on one line in the terminal by using `;`:
 
