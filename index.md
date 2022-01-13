@@ -1,5 +1,7 @@
 # *Hi! I'm Justin and this is my Blog.*
+
 ---
+
 ## CSE Courses
 1. CSE 15l
 2. CSE 12

@@ -1,4 +1,5 @@
 # *Lab 1 Week 2*
+
 ---
 
 > ## 1. **Installing Visual Studio Code**
@@ -14,14 +15,13 @@
 
 ---
 
-
 > ## 2. **Remotely Connecting**
 
 * For windows, install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 * Look up your course-specific account for CSE15L:
 
-https://sdacs.ucsd.edu/~icc/index.php
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 * Login using your UCSD Student username and PID. You should see a page like this: 
 
@@ -165,3 +165,4 @@ ssh cs15lwi22zzz@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hel
 ![Optimize Server Cmds](Optimize2.png)
 
 
+[Return to Home Page](https://jusinucsd26.github.io/cse15l-lab-reports/)
