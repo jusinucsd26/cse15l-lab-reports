@@ -1,10 +1,11 @@
-# *Week 2 Lab Report*
+# *Lab 1 Week 2*
 ---
 
 > ## 1. **Installing Visual Studio Code**
 * Go to the Visual Studio Code website 
 
     [Visual Studio Code](https://code.visualstudio.com/)
+
 * Click on the `Download` button for your operating system. OSX (for Macs) and Windows (for PCs)
 * When done, open a new Visual Studio Code window and it should look something like this: 
 
