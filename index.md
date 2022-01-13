@@ -3,8 +3,8 @@
 ---
 
 ## CSE Courses
-1. CSE 15l
-2. CSE 12
+* CSE 15l
+* CSE 12
 
 ---
 
