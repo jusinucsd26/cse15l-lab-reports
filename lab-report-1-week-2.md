@@ -123,7 +123,7 @@ and run the `ls` command to determine if the transfer was successful. It should 
 
 ># 5. **Setting an SSH Key**
 
-* First, run the command `$ ssh-keygen` on the terminal. Press `enter` for the prompts.
+* First, run the command `ssh-keygen` on the terminal. Press `enter` for the prompts.
 
 * on Windows, follow the ssh-add steps also: 
 
