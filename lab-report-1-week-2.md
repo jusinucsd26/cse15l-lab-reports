@@ -1,7 +1,7 @@
 # *Week 2 Lab Report*
 ---
 
-## 1. **Installing Visual Studio Code**
+> ## 1. **Installing Visual Studio Code**
 * Go to the Visual Studio Code website 
 
     [Visual Studio Code](https://code.visualstudio.com/)
@@ -10,7 +10,10 @@
 
 ![VSCode](VSCode.png)
 
-## 2. **Remotely Connecting**
+---
+
+
+> ## 2. **Remotely Connecting**
 * For windows, install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * Look up your course-specific account for CSE15L:
 
@@ -28,7 +31,9 @@ $ ssh cs15lwi22zzz@ieng6.ucsd.edu
 
 ![Remote Connecting](RemoteConnecting.png)
 
-## 3. **Trying Some Commands**
+---
+
+> ## 3. **Trying Some Commands**
 `cd ~`
 
 `cd`
@@ -57,7 +62,9 @@ $ ssh cs15lwi22zzz@ieng6.ucsd.edu
 
 ![cat cmd](cat.png)
 
-## 4. **Moving Files with `scp`**
+---
+
+> ## 4. **Moving Files with `scp`**
 * `scp` means secure copy and allows us to securely transfer files between computers (client to server)
 * Create a file `Hello.md` and put some text into it. For ex. "Hello"
 * Then from your computer run:
@@ -72,7 +79,9 @@ and run the `ls` command to determine if the transfer was successful. It should 
 
 ![Scp cmd](Scp.png)
 
-## 5. **Setting an SSH Key**
+---
+
+>## 5. **Setting an SSH Key**
 * First, run the command `$ ssh-keygen` on the terminal. Press `enter` for the prompts.
 * Next run, 
 ```
@@ -91,6 +100,8 @@ $ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/
 * Finally, you should be able to login to the server without entering your password. The process should look like this: 
 
 ![ssh-keygen](ssh-keygen.png)
+
+---
 
 ## 6. **Optimizing Remote Running**
 * You can run multiple commands on one line in the terminal by using `;`:
