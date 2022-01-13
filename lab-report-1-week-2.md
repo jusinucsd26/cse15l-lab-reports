@@ -106,10 +106,10 @@ $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 * Then from your computer run:
 
 ```
-scp Hello.md cs15lwi22zzz@ieng6.ucsd.edu:~/
+$ scp Hello.md cs15lwi22zzz@ieng6.ucsd.edu:~/
 ```
 
-* Then login with:
+* Then ssh into the remote server with:
 
 ```
 $ ssh cs15lwi22zzz@ieng6.ucsd.edu
@@ -148,6 +148,7 @@ $ exit
 $ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
+
 * Finally, you should be able to login to the server without entering your password. The process should look like this: 
 
 ![ssh-keygen](ssh-keygen.png)
@@ -159,7 +160,7 @@ $ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/
 * You can run multiple commands on one line in the terminal by using `;`:
 
 ```
-cat Hello.md; ls
+$ cat Hello.md; ls
 ```
 
 ![Multiple Cmds](Optimize1.png)
@@ -167,7 +168,7 @@ cat Hello.md; ls
 * You can also run multiple commands on the remote server and exit after by using `ssh`, `""`, and `;`:
 
 ```
-ssh cs15lwi22zzz@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hello.md"
+$ ssh cs15lwi22zzz@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hello.md"
 ```
 
 ![Optimize Server Cmds](Optimize2.png)
