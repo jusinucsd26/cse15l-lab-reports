@@ -4,6 +4,8 @@
 2. Test2
 3. **Test3**
 
+[Lab Report 1](https://jusinucsd26.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
 [YT](https://www.youtube.com/)
 
 * Football
