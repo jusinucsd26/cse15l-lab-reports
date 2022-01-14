@@ -8,7 +8,8 @@
 
 [Visual Studio Code](https://code.visualstudio.com/)
 
-* Click on the `Download` button for your operating system. OSX (for Macs) and Windows (for PCs)
+* Click on the `Download` button for macOS
+
 * When done, open a new Visual Studio Code window and it should look something like this: 
 
 ![VSCode](VSCode.png)
@@ -16,8 +17,6 @@
 ---
 
 > # 2. **Remotely Connecting**
-
-* For windows, install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 * Look up your course-specific account for CSE15L:
 
@@ -27,10 +26,10 @@
 
 ![Index.php](IndexPHP.png)
 
-* Open a terminal in VSCode (Ctrl or Command + `, or use the Terminal → New Terminal menu option) and enter this command where zzz is replaced by the letters in your cs15l account: 
+* Open a terminal in VSCode (Ctrl or Command + `, or use the Terminal → New Terminal menu option). Then run:
 
 ```
-$ ssh cs15lwi22zzz@ieng6.ucsd.edu
+$ ssh cs15lwi22afb@ieng6.ucsd.edu
 ```
 
 * Type yes and type your password when applicable. It should look like this when you are logged in:
@@ -48,10 +47,6 @@ $ cd ~
 
 ```
 $ cd
-```
-
-```
-$ ls
 ```
 
 ```
@@ -81,16 +76,16 @@ $ ls -a
 ```
 $ ls <directory>
 
-where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22zzz
+where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22afb
 ```
 
 
 ```
-$ cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
+$ cp /home/linux/ieng6/cs15lwi22afb/public/hello.txt ~/
 ```
 
 ```
-$ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+$ cat /home/linux/ieng6/cs15lwi22afb/public/hello.txt
 ```
 
 ![cat cmd](cat.png)
@@ -106,13 +101,13 @@ $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 * Then from your computer run:
 
 ```
-$ scp Hello.md cs15lwi22zzz@ieng6.ucsd.edu:~/
+$ scp Hello.md cs15lwi22afb@ieng6.ucsd.edu:~/
 ```
 
 * Then ssh into the remote server with:
 
 ```
-$ ssh cs15lwi22zzz@ieng6.ucsd.edu
+$ ssh cs15lwi22afb@ieng6.ucsd.edu
 ```
 
 and run the `ls` command to determine if the transfer was successful. It should look like this: 
@@ -125,15 +120,11 @@ and run the `ls` command to determine if the transfer was successful. It should 
 
 * First, run the command `ssh-keygen` on the terminal. Press `enter` for the prompts.
 
-* on Windows, follow the ssh-add steps also: 
-
-[https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-
 
 * Next run:
 
 ```
-$ ssh cs15lwi22zz@ieng6.ucsd.edu
+$ ssh cs15lwi22afb@ieng6.ucsd.edu
 ```
 
 ```
@@ -145,7 +136,9 @@ $ exit
 ```
 
 ```
-$ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+$ scp <your-id_rsa.pub-path>/.ssh/id_rsa.pub cs15lwi22afb@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+In this case <your-id_rsa.pub-path> is /Users/justins
 ```
 
 
@@ -168,7 +161,7 @@ $ cat Hello.md; ls
 * You can also run multiple commands on the remote server and exit after by using `ssh`, `""`, and `;`:
 
 ```
-$ ssh cs15lwi22zzz@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hello.md"
+$ ssh cs15lwi22afb@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hello.md"
 ```
 
 ![Optimize Server Cmds](Optimize2.png)
