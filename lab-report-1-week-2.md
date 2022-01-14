@@ -12,7 +12,7 @@
 
 * When done, open a new Visual Studio Code window and it should look something like this: 
 
-![VSCode](VSCode.png)
+![VSCode](Screenshots/VSCode.png)
 
 ---
 
@@ -24,7 +24,7 @@
 
 * Login using your UCSD Student username and PID. You should see a page like this: 
 
-![Index.php](IndexPHP.png)
+![Index.php](Screenshots/IndexPHP.png)
 
 * Open a terminal in VSCode (Ctrl or Command + `, or use the Terminal → New Terminal menu option). Then run:
 
@@ -34,7 +34,7 @@ $ ssh cs15lwi22afb@ieng6.ucsd.edu
 
 * Type yes and type your password when applicable. It should look like this when you are logged in:
 
-![Remote Connecting](RemoteConnecting.png)
+![Remote Connecting](Screenshots/RemoteConnecting.png)
 
 ---
 
@@ -61,13 +61,13 @@ $ ls
 $ pwd
 ```
 
-![pwd cmd](pwd.png)
+![pwd cmd](Screenshots/pwd.png)
 
 ```
 $ ls -lat
 ```
 
-![ls-lat](ls-lat.png)
+![ls-lat](Screenshots/ls-lat.png)
 
 ```
 $ ls -a
@@ -88,7 +88,7 @@ $ cp /home/linux/ieng6/cs15lwi22afb/public/hello.txt ~/
 $ cat /home/linux/ieng6/cs15lwi22afb/public/hello.txt
 ```
 
-![cat cmd](cat.png)
+![cat cmd](Screenshots/cat.png)
 
 ---
 
@@ -112,7 +112,7 @@ $ ssh cs15lwi22afb@ieng6.ucsd.edu
 
 and run the `ls` command to determine if the transfer was successful. It should look like this: 
 
-![Scp cmd](Scp.png)
+![Scp cmd](Screenshots/Scp.png)
 
 ---
 
@@ -144,7 +144,7 @@ In this case <your-id_rsa.pub-path> is /Users/justins
 
 * Finally, you should be able to login to the server without entering your password. The process should look like this: 
 
-![ssh-keygen](ssh-keygen.png)
+![ssh-keygen](Screenshots/ssh-keygen.png)
 
 ---
 
@@ -156,7 +156,7 @@ In this case <your-id_rsa.pub-path> is /Users/justins
 $ cat Hello.md; ls
 ```
 
-![Multiple Cmds](Optimize1.png)
+![Multiple Cmds](Screenshots/Optimize1.png)
 
 * You can also run multiple commands on the remote server and exit after by using `ssh`, `""`, and `;`:
 
@@ -164,7 +164,7 @@ $ cat Hello.md; ls
 $ ssh cs15lwi22afb@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat Hello.md"
 ```
 
-![Optimize Server Cmds](Optimize2.png)
+![Optimize Server Cmds](Screenshots/Optimize2.png)
 
 
 [Return to Home Page](https://jusinucsd26.github.io/cse15l-lab-reports/)
