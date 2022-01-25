@@ -193,7 +193,7 @@ $ exit
 
 also takes 87 keystrokes.
 
-However, using the up-arrow command to re-run all of the individual commands above would take a total of 42 strokes which is twenty one times more keystrokes than the multiple commands on one line.
+However, using the up-arrow command to rerun all of the individual commands above would take a total of 42 keystrokes which is twenty one times more keystrokes than the multiple commands on one line.
 
 Thus, running multiple commands on one line can be much more efficient for remote running.
 
