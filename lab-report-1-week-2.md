@@ -144,7 +144,7 @@ In this case <your-id_rsa.pub-path> is /Users/justins
 
 ---
 
-# 6. **Optimizing Remote Running**
+> # 6. **Optimizing Remote Running**
 
 - You can run multiple commands on one line in the terminal by using `;`:
 
@@ -163,7 +163,7 @@ $ ssh cs15lwi22afb@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI; cat H
 ![Optimize Server Cmds](Screenshots/Optimize2.png)
 
 - The one line of commands above takes 87 keystrokes to execute. Using the up-arrow key to rerun the command would take 2 keystrokes.
-  <br>
+  <br />
 
 - Running each separately like:
 
