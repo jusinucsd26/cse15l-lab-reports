@@ -16,3 +16,7 @@
 ## Check out my Second Blog Post
 
 > ## _[Lab Report 2](https://jusinucsd26.github.io/cse15l-lab-reports/lab-report-2-week-4.html)_
+
+## Check out my Second Blog Post
+
+> ## _[Lab Report 3](https://jusinucsd26.github.io/cse15l-lab-reports/lab-report-3-week-6.html)_
