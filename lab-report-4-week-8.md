@@ -8,6 +8,8 @@ Preview:
 
 ![Snippet1](Screenshots/Snippet1.png)
 
+<br>
+
 ### My Implementation
 
 * Test Method:
@@ -20,6 +22,8 @@ public void testSnippet1() throws IOException {
     assertEquals(expected, MarkdownParse.getLinks(contents));    
 }
 ```
+
+<br>
 
 * This test did not pass. Output:
 
@@ -47,6 +51,8 @@ public void testSnippet1() {
 }
 ```
 
+<br>
+
 * This test method did not pass. Output: 
 ![ReviewSnippet1Fail](Screenshots/ReviewSnippet1Fail.png)
 
@@ -55,6 +61,8 @@ public void testSnippet1() {
 Preview:
 
 ![Snippet2](Screenshots/Snippet2.png)
+
+<br>
 
 ### My Implementation
 
@@ -67,6 +75,8 @@ public void testSnippet2() throws IOException {
     assertEquals(expected, MarkdownParse.getLinks(contents));
 }
 ```
+
+<br>
 
 * This test did not pass. Output:
 
@@ -93,6 +103,8 @@ static int findCloseParen(String markdown, int openParen) {
 }
 ```
 
+<br>
+
 ### Implementation I Reviewed
 
 * Test Method:
@@ -103,7 +115,7 @@ public void testSnippet2() {
     getLinksTest("snippet-2.md", expected);
 }
 ```
-
+<br>
 * This test method passed for the implementation I reviewed.
 
 ## **Snippet 3**
@@ -111,6 +123,8 @@ public void testSnippet2() {
 Preview:
 
 ![Snippet3](Screenshots/Snippet3.png)
+
+<br>
 
 ### My Implementation
 
@@ -124,6 +138,7 @@ public void testSnippet3() throws IOException{
     assertEquals(expected, MarkdownParse.getLinks(contents));
 }
 ```
+<br>
 
 * This test did not pass. Output:
 
@@ -139,6 +154,7 @@ if (!potentialLink.contains("\n\n")) {
     toReturn.add(markdown.substring(openParen + 1, closeParen));
 }
 ```
+<br>
 
 ### Implementation I Reviewed
 
@@ -151,7 +167,7 @@ public void testSnippet3() {
     getLinksTest("snippet-3.md", expected);
 }
 ```
-
+<br>
 * This test method passed for the implementation I reviewed.
 
 <br>
