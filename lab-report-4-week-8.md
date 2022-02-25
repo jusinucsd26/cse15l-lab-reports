@@ -40,6 +40,8 @@ if (nextOpenBracket - 1 != -1 && markdown.charAt(nextOpenBracket - 1) == '`') {
 }
 ```
 
+<br>
+
 ### Implementation I Reviewed
 
 * Test Method:
