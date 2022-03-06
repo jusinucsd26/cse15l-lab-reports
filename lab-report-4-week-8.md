@@ -6,7 +6,7 @@
 
 My Repository: [https://github.com/jusinucsd26/markdown-parse](https://github.com/jusinucsd26/markdown-parse)
 
-Respository I Reviewed: [https://github.com/atruong39/markdown-parse](https://github.com/atruong39/markdown-parse)
+Repository I Reviewed: [https://github.com/atruong39/markdown-parse](https://github.com/atruong39/markdown-parse)
 
 ## **Snippet 1**
 
