@@ -42,6 +42,8 @@ and here are the results:
 ![testResults2](Screenshots/testResults2.png)
 ![testResults3](Screenshots/testResults3.png)
 
+<br>
+
 ## **<u>Comparing Tests</u>**
 
 > ### Test 495
@@ -82,6 +84,8 @@ static int findCloseParen(String markdown, int openParen) {
     }
 }
 ```
+
+<br>
 
 > ### Test 505
 
