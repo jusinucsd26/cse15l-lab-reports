@@ -10,21 +10,21 @@ Lab Repository: [https://github.com/ucsd-cse15l-w22/markdown-parse](https://gith
 
 ## **<u>Finding Tests with Different Results</u>**
 
-1. Make a copy of the test files folder into my repository root directory.
+- First, I made a copy of the test files folder from the Lab Repo into my repository root directory.
 
 ![test-files-transfer](Screenshots/test-files-transfer.png)
 
-2. Next, I copied over the getLinks methods from the Lab implementation into my MarkdownParseLab.java file and renamed the methods so they don't conflict with our implementation of the getLinks methods.
+- Next, I copied over the getLinks methods from the Lab implementation into my MarkdownParseLab.java file and renamed the methods so they don't conflict with our implementation of the getLinks methods.
 
 ![getLinksFiles](Screenshots/getLinksFiles.png)
 
 ![getLinksString](Screenshots/getLinksString.png)
 
-3. Next, I updated the code in the main method of MarkdownParseLcab.java to run the getLinks methods for the test-files folder and then printed out the test results that were not equal (different results).
+- Next, I updated the code in the main method of MarkdownParseLcab.java to run the getLinks methods for the test-files folder and then printed out the test results that were not equal (different results).
 
 ![mainMethod](Screenshots/mainMethod.png)
 
-4. Finally, I ran
+- Finally, I ran
 
 ```
 Javac MarkdownParseLcab.java
