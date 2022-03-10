@@ -8,7 +8,7 @@ My Group Repository: [https://github.com/zfxd/markdown-parse](https://github.com
 
 Lab Repository: [https://github.com/ucsd-cse15l-w22/markdown-parse](https://github.com/ucsd-cse15l-w22/markdown-parse)
 
-## <u>**Finding Tests with Different Results**</u>
+## **<u>Finding Tests with Different Results</u>**
 
 1. Make a copy of the test files folder into my repository root directory.
 
@@ -42,7 +42,7 @@ and here are the results:
 ![testResults2](Screenshots/testResults2.png)
 ![testResults3](Screenshots/testResults3.png)
 
-## <u>**Comparing Tests**</u>
+## **<u>Comparing Tests</u>**
 
 > ### Test 495
 

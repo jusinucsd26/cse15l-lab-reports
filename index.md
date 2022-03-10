@@ -24,3 +24,7 @@
 ## Check out my Fourth Blog Post
 
 - ## [Lab Report 4](https://jusinucsd26.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+## Check out my Fifth Blog Post
+
+- ## [Lab Report 5](https://jusinucsd26.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
